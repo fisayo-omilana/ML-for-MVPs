@@ -9,16 +9,16 @@ get_ipython().magic(u'matplotlib inline')
 
 
 #Loading training data (2002/03-2012/13 Regular Seasons)
-train_file = open('mvp-trnblank.csv','rU')
+train_file = open('Scraped Data/mvp-trnblank.csv','rU')
 mvp_train =  pd.read_csv(train_file)
 #Loading test data (2013/14-15/16 Regular Seasons)
-test_file = open('mvp-tstblank.csv','rU')
+test_file = open('Scraped Data/mvp-tstblank.csv','rU')
 mvp_test =  pd.read_csv(test_file)
 #Loading respective labeled training data
-Ltrain_file = open('mvp-trnlabeled.csv','rU')
+Ltrain_file = open('Scraped Data/mvp-trnlabeled.csv','rU')
 Lmvp_train = pd.read_csv(Ltrain_file)
 #Loading respective labeled test data
-Ltest_file = open('mvp-tstlabeled.csv', 'rU')
+Ltest_file = open('Scraped Data/mvp-tstlabeled.csv', 'rU')
 Lmvp_test = pd.read_csv(Ltest_file)
 
 
