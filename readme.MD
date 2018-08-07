@@ -1,1 +1,1 @@
-THIS PROJECT USES VARIOUS MACHINE LEARNING CLASSIFIERS FROM PYTHON'S SCIKIT-LEARN TO PREDICT THE 2016-2017 NBA MVP
+This project uses various machine learning models from Python's 'scikit-learn' package to predict the 2016-17 NBA Most Valuable Player
